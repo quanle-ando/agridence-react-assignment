@@ -34,7 +34,6 @@ go to your private repo settings and add the reviewers as the collaborators
 
 ## React assignment reviewers
 - [bebarle](https://github.com/bebarle)
-- [sruthiganesh-HC](https://github.com/sruthiganesh-HC)
 - [weikiat87](https://github.com/weikiat87)
 - [abhi-agridence](https://github.com/abhi-agridence)
 
