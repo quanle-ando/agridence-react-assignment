@@ -3,7 +3,8 @@
 Welcome candidate to Agridence React frontend challenge! The goal of this assignment is to test your knowledge and practices that you have on a day-to-day basis.
 
 ## How to Start?
-Import the project as a private repo https://github.com/new/import 
+
+Import the project as a private repo https://github.com/new/import
 
 ![import-project](images/import-project.png)
 
@@ -13,12 +14,14 @@ Clone your private repo into your folder
 start the project using `npm start`
 
 ### Note
+
 - You may choose to any component/UI libraries for the design as we are not looking at how good you are at designing the components :)
 - You do not need to make a Backend API server for this challenge. Just use the user.json data.
 - You can store the information you need on redux or local storage.
 
 ## Requirements
-- As a user, When I login with the correct credential, I should be able to access my personal notes.
+
+- As a user, When I login with the correct credential, I should be able to access my personal notes (Please use admin/password for the username/password to log in).
 - As a user, When I login with the wrong credential, I should receive a message saying "invalid username/password"
 - As a user, I should not be able to access my personal notes without validating my credential.
 - As a user, I want to be able to add a note in my personal note.
@@ -28,15 +31,15 @@ start the project using `npm start`
 - As a note, I should have a description that is shown in the detail view.
 
 ## Submission
+
 go to your private repo settings and add the reviewers as the collaborators
 ![add-collaborators](images/add-collaborators.png)
 
-
 ## React assignment reviewers
+
 - [bebarle](https://github.com/bebarle)
 - [weikiat87](https://github.com/weikiat87)
 - [abhi-agridence](https://github.com/abhi-agridence)
-
 
 # Getting Started with Create React App
 

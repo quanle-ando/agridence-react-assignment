@@ -39,30 +39,24 @@
     ]
   },
   "devDependencies": {
-    "@ant-design/icons": "^6.0.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/user-event": "^14.6.1",
+    "@ant-design/icons": "6",
+    "@testing-library/user-event": "14",
     "@types/lodash-es": "4",
-    "@vitest/coverage-v8": "3.2.4",
+    "@vitest/coverage-v8": "3",
     "antd": "5",
     "autoprefixer": "10",
     "axios": "1",
     "dayjs": "1",
-    "dompurify": "^3.2.6",
-    "emittery": "^1.2.0",
-    "happy-dom": "^18.0.1",
-    "jsdom": "^26.1.0",
+    "emittery": "1",
+    "happy-dom": "18",
     "lodash-es": "4",
     "msw": "2",
     "nanoid": "5",
     "postcss": "8",
     "react-router": "7",
     "tailwind-merge": "3",
-    "vitest": "^3.2.4",
-    "vitest-preview": "^0.0.1"
-  },
-  "resolutions": {
-    "jsdom": "26"
+    "vitest": "3",
+    "vitest-preview": "0"
   },
   "msw": {
     "workerDirectory": [
