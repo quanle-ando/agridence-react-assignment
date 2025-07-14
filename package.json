@@ -58,6 +58,10 @@
     "vitest": "3",
     "vitest-preview": "0"
   },
+  "volta": {
+    "node": "24.1.0",
+    "yarn": "1.22.22"
+  },
   "msw": {
     "workerDirectory": [
       "public"

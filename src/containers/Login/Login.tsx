@@ -1,4 +1,4 @@
-import { Button, Card, notification } from "antd";
+import { Alert, Button, Card, notification } from "antd";
 import { useEffect, useState } from "react";
 import { twJoin } from "tailwind-merge";
 import axios, { AxiosError } from "axios";
@@ -54,7 +54,7 @@ export default function Login() {
 
   return (
     <div className={twJoin("p-[16px]")}>
-      <Card className={twJoin("w-[700px]", "m-auto")}>
+      <Card className={twJoin("w-[500px]", "m-auto")}>
         <div className={twJoin("flex", "flex-col", "gap-[16px]")}>
           <FormInput
             fieldLabel="Username"
@@ -75,6 +75,17 @@ export default function Login() {
               setCredentials((cur) => ({ ...cur, password: e.target.value }));
             }}
             onPressEnter={onSubmit}
+          />
+
+          <Alert
+            type="info"
+            showIcon
+            message={
+              <div>
+                For testing purposes, please use <b>admin</b> for the username
+                and <b>password</b> for the password to log in
+              </div>
+            }
           />
 
           <Button
