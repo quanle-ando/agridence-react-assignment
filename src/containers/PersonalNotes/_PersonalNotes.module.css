@@ -1,7 +1,7 @@
 .note-description {
   &&&& {
     max-height: 500px;
-    height: 500px;
+    height: 30vh;
     min-height: 200px;
   }
 }
